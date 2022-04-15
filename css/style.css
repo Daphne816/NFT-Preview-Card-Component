@@ -1,0 +1,96 @@
+/*Web Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*Custom Variables/ Colors*/
+:root {
+    --clr-primary-soft-blue: hsl(215, 51%, 70%);
+
+    --clr-primary-cyan: hsl(178, 100%, 50%);
+	
+	
+	/*Very Dark Blue*/
+    --clr-neutral-main-bg: hsl(217, 54%, 11%);
+	
+	/*Very Dark Blue*/
+    --clr-neutral-card-bg: hsl(216, 50%, 16%);
+	
+	/*Very Dark Blue*/
+	--clr-neutral-line: hsl(215, 32%, 27%);
+	
+	--clr-neutral-white: hsl(0, 0%, 100%);
+}
+	
+/*Desktop*/
+/*Tested at 1440x900px*/
+
+* {box-sizing: border-box;}
+
+body {background-color: var(--clr-neutral-main-bg);}
+
+.card {font-family: 'Outfit', sans-serif;
+       background-color: var(--clr-neutral-card-bg);
+       color: var(--clr-primary-soft-blue);
+       width: calc(375px - 2.5rem);
+       margin-inline: auto;
+       padding: 1.25rem;
+       border-radius: .75rem;
+       font-weight: 300;
+       margin-top: 4rem;}
+
+.card img {width: 100%;
+           border-radius: .5rem;}
+
+.card h1 {color: var(--clr-neutral-white);
+          font-weight: 600;
+          font-size: 1.3rem;}
+
+.item-link {color: var(--clr-neutral-white);
+      	    text-decoration: none;}
+
+.item-link:hover, .artist-name:hover {
+	color: var(--clr-primary-cyan);
+}
+
+.card p {font-size: 16px;
+         font-weight: 300;
+         line-height: 1.5rem;}
+
+.price span, .timer span {padding-left: .5rem;}
+
+.price-timer-row {display: flex;
+                  padding-bottom: 1rem;
+                  border-bottom: 2px solid var(--clr-neutral-line);}
+
+.price img, .timer img {height: 1rem;
+	  	    		    width: auto;}
+
+.price {color: var(--clr-primary-cyan);
+        font-weight: 400;
+	    display: flex;
+		align-items: center;}
+
+.timer {margin-left: auto;
+        display: flex;
+	    align-items: center;}
+
+.artist-row {display: flex;
+             margin-block: .75rem .25rem;
+             align-items: center;}
+
+.artist-row img {height: 2rem;
+			     width: auto;
+                 border: 1px solid var(--clr-neutral-white);
+                 border-radius: 1rem;
+                 margin-right: .5rem;}
+
+.artist-name {color: var(--clr-neutral-white);
+              margin-left: .3rem;
+              text-decoration: none;}
+
+.attribution {text-align: center;
+			  width: calc(375px - 2rem);
+	          margin-inline: auto;
+              color: var(--clr-primary-soft-blue);
+              margin-top: 1rem;}
+
+.attribution a {color: var(--clr-primary-cyan);}
