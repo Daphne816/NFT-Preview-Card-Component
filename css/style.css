@@ -94,7 +94,7 @@ body {background-color: var(--clr-neutral-main-bg);}
 	  	    		    width: auto;}
 
 .price {color: var(--clr-primary-cyan);
-        font-weight: 400;
+        font-weight: 600;
 	    display: flex;
 		align-items: center;}
 
