@@ -125,7 +125,6 @@ body {background-color: var(--clr-neutral-main-bg);}
 /*Mobile*/
 /*Tested at 375x667px*/
 @media screen and (max-width: 375px) {
-
 	.card {margin-top: 0;
 	       box-shadow: none;}
 }
