@@ -35,13 +35,13 @@ body {background-color: var(--clr-neutral-main-bg);}
        padding: 1.25rem;
        border-radius: .75rem;
        font-weight: 300;
-       margin-top: 8rem;
+       margin-top: 10rem;
        box-shadow: 10px 25px 1px 5px hsl(217, 54%, 10.25%),
 		   		   -10px 25px 1px 5px hsl(217, 54%, 10.25%),
-		   		   15px 35px 0px 15px hsl(217, 54%, 11.5%),
-		   		   -15px 35px 0px 15px hsl(217, 54%, 11.5%),
-		   		   15px 0px 0px 15px hsl(217, 54%, 11.5%),
-		   		   -15px 0px 0px 15px hsl(217, 54%, 11.5%);
+		   		   15px 35px 0px 15px hsl(217, 54%, 11.25%),
+		   		   -15px 35px 0px 15px hsl(217, 54%, 11.25%),
+		   		   15px 0px 0px 15px hsl(217, 54%, 11.25%),
+		   		   -15px 0px 0px 15px hsl(217, 54%, 11.25%);
 }
 
 .img-container {position: relative;
